@@ -5,6 +5,7 @@ Created on Wed Mar  6 16:44:38 2019
 
 @author: mahparsa
 """
+#sourse code can be found https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.convolve.html#scipy.signal.convolve
 #this code is shows how a filter can smooth a signal. 
 from scipy import signal
 sig = np.repeat([0., 2., 0.], 400)
