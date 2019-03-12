@@ -5,7 +5,7 @@ Created on Sat Mar  9 13:12:26 2019
 
 @author: mahparsa
 """
-
+# The sourse code can be found at https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.gaussian_filter1d.html
 from scipy.ndimage import gaussian_filter1d
 import matplotlib.pyplot as plt
 import numpy as np
