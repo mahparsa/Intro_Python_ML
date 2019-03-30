@@ -5,3 +5,6 @@ A useful link to install tensorflow is:
 https://www.tensorflow.org/install
 A useful link related to LSTM: 
 https://www.oreilly.com/ideas/introduction-to-lstms-with-tensorflow
+
+# papers
+1. Hochreiter, S., and J. Schmidhuber. "Long short-term memory." Neural computation. Vol. 9, Number 8, 1997, pp.1735–1780.
