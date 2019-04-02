@@ -10,3 +10,4 @@ https://www.oreilly.com/ideas/introduction-to-lstms-with-tensorflow
 sampleEEGdata 
 # Papers
 1. Hochreiter, S., and J. Schmidhuber. "Long short-term memory." Neural computation. Vol. 9, Number 8, 1997, pp.1735–1780.
+2. http://www.bioinf.jku.at/publications/older/2604.pdf
