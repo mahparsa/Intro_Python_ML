@@ -5,6 +5,25 @@ Created on Wed Mar 18 14:03:30 2020
 
 @author: mahparsa
 """
+
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Reshape
+from keras.layers import Flatten
+from keras.layers import Conv2D
+from keras.layers import Conv2DTranspose
+from keras.layers import LeakyReLU
+from keras.layers import Dropout
+from numpy import expand_dims
+from numpy import zeros
+from numpy import ones
+from numpy import vstack
+from numpy.random import randn
+from numpy.random import randint
+from keras.optimizers import Adam
+from matplotlib import pyplot
+from keras.datasets.mnist import load_data
+
 def define_discriminator(in_shape=(28,28,1)):
 	model = Sequential()
 	model.add(Conv2D(64, (3,3), strides=(2, 2), padding='same', input_shape=in_shape))
