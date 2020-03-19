@@ -81,3 +81,7 @@ g_model = define_generator(latent_dim)
 gan_model = define_gan(g_model, d_model)
 dataset = load_real_samples()
 train(g_model, d_model, gan_model, dataset, latent_dim)
+
+
+if __name__ == "__main__":
+    main()
