@@ -10,14 +10,12 @@ from keras.layers import MaxPooling2D
 from keras.layers import Dense
 from keras.layers import Flatten
 from keras.optimizers import SGD
-# load the fashion mnist dataset
-from matplotlib import pyplot
-from keras.datasets import fashion_mnist
-(trainX, trainy), (testX, testy) = fashion_mnist.load_data()
+
 
 
 
 def train_test_dataset():
+	# load the fashion mnist dataset
 	(trainX, trainY), (testX, testY) = fashion_mnist.load_data()
 	trainX = trainX.reshape((trainX.shape[0], 28, 28, 1))
 	testX = testX.reshape((testX.shape[0], 28, 28, 1))
