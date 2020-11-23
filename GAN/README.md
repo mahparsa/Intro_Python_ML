@@ -1,1 +1,2 @@
 
+An example of GAN. 
